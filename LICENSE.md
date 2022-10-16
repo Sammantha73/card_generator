@@ -1,4 +1,3 @@
-## TERMS & CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
 By accessing Breathe Code we assume you accept these terms and conditions. Do not continue to use Breathe Code's content, applications or tutorials if you do not agree to take all of the terms and conditions stated on this page.
 

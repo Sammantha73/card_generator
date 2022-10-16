@@ -1,0 +1,45 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.card {
+  font-family: sans-serif;
+  position: relative;
+  width: 157px;
+  height: 237px;
+  border-radius: 5px;
+  border: 2px solid #0c0c0c;
+}
+
+.card.\&diams\; {
+  color: red;
+}
+.card.\&hearts\; {
+  color: red;
+}
+
+.card-value-suit {
+
+  position: absolute;
+  font-size: 50px;
+}
+.card-value-suit.top {
+  top: -12px;
+  left: 2px;
+}
+.card-value-suit.bot {
+  transform: rotate(180deg);
+  bottom: -9px;
+  right: 0px;
+}
+.card-suit {
+  font-size: 50px;
+  position: absolute;
+  top: 37%;
+  left: 35%;
+}
