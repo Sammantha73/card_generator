@@ -2,6 +2,7 @@ window.onload = function() {
   creaCartas();
 };
 
+
 function creaCartas() {
   var numeros = [ "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
   var vnumeros = numeros.length;
@@ -19,8 +20,16 @@ function creaCartas() {
   var card = document.createElement("div");
  card.classList.add("card", iconos[randomiconos]);
   card.innerHTML = 
-  '<span class="card-value-suit top">' + iconos[randomiconos] + '</span>' + 
-  '<span class="card-suit">' +numeros[randomnumeros] + '</span>' + 
-  '<span class="card-value-suit bot">'+ iconos[randomiconos] + '</span>';
+  '<span class="simbolo top">' + iconos[randomiconos] + '</span>' + 
+  '<span class="number_center">' +numeros[randomnumeros] + '</span>' + 
+  '<span class="simbolo bot">'+ iconos[randomiconos] + '</span>';
   document.body.appendChild(card);
    } 
+
+var mybtn = document.createElement("button");
+mybtn.setAttribute("id","button1");
+mybtn.innerHTML ="crea carta";
+document.body.appendChild(mybtn)
+
+document.getElementById("button1").addEventListener("click", creaCartas);   
+
